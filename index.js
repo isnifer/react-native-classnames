@@ -1,6 +1,6 @@
 var classnames = require('classnames');
 
-function getBEMStylesheet() {
+function getStylesheet() {
     var args = [].slice.call(arguments);
 
     if (!args.length) {
@@ -18,4 +18,4 @@ function getBEMStylesheet() {
     }, {});
 }
 
-module.exports = getBEMStylesheet;
+module.exports = getStylesheet;
