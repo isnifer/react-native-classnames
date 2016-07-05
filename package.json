@@ -7,8 +7,8 @@
     "test": "node test/index.js | tap-diff"
   },
   "repository": {
-    "type": "git+ssh",
-    "url": "git@github.com:isnifer/react-native-classnames.git"
+    "type": "git",
+    "url": "git+ssh://git@github.com/isnifer/react-native-classnames.git"
   },
   "keywords": [
     "react",
@@ -24,5 +24,12 @@
   "devDependencies": {
     "tap-diff": "^0.1.1",
     "tape": "^4.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/isnifer/react-native-classnames/issues"
+  },
+  "homepage": "https://github.com/isnifer/react-native-classnames#readme",
+  "directories": {
+    "test": "test"
   }
 }
