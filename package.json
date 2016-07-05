@@ -1,0 +1,28 @@
+{
+  "name": "react-native-classnames",
+  "version": "0.1.0",
+  "description": "React Native classnames",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js | tap-diff"
+  },
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:isnifer/react-native-classnames.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "css",
+    "classnames"
+  ],
+  "author": "Anton Kuznetsov <isnifer@gmail.com> (https://github.com/isnifer)",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5"
+  },
+  "devDependencies": {
+    "tap-diff": "^0.1.1",
+    "tape": "^4.6.0"
+  }
+}
