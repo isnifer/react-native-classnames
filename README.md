@@ -23,7 +23,7 @@ class ReactNativeComponent extends Component {
 
     render() {
         return (
-            <View style={styles.StoreListWrapper}>
+            <View style={style.StoreListWrapper}>
                 <ListView
                     dataSource={this.props.stores}
                     renderRow={this.renderRow}
